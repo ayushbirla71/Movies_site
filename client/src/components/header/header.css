@@ -1,0 +1,31 @@
+.nav-Items :hover .navText {
+  display: flex;
+}
+.header-cont {
+  background: rgba(40, 38, 38, 0.304);
+  background: linear-gradient(
+    36deg,
+    rgba(40, 38, 38, 1) 0%,
+    rgba(8, 13, 34, 1) 47%,
+    rgba(4, 1, 14, 0.363) 100%
+  );
+}
+
+.mobile-header-logo{
+  background: linear-gradient(
+    36deg,
+    rgba(40, 38, 38, 1) 0%,
+    rgba(8, 13, 34, 1) 47%,
+    rgba(4, 1, 14, 0.363) 100%
+  );
+}
+
+.nav-Items :hover li {
+  /* background: rgb(40, 38, 38);
+  background: linear-gradient(
+    36deg,
+    rgba(40, 38, 38, 1) 0%,
+    rgba(8, 13, 34, 1) 47%,
+    rgba(4, 1, 14, 1) 100%
+  ); */
+}
