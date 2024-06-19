@@ -2,10 +2,11 @@ import React from "react";
 import { GiSelfLove } from "react-icons/gi";
 import { MdLink } from "react-icons/md";
 import { FaStar } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
-function SmallitemCard() {
+function SmallitemCard({id}) {
   return (
-    <div className=" md:max-w-28 min-w-28 sm:min-w-32 md:min-w-48 overflow-hidden origin-center hover:rotate-6 cursor-pointer shadow-2xl rounded-md p-1">
+    <Link to={`/movieInfo/${id}`} className=" md:max-w-28 min-w-28 sm:min-w-32 md:min-w-48 overflow-hidden origin-center hover:scale-105 duration-700 md:hover:scale-110 lg:hover:scale-125 shadow-2xl p-1 cursor-pointer">
       <div className=" flex flex-col items-end ">
         <label className="relative text-white font-bold px-1 top-5 text-xs ">
           Hindi
@@ -31,7 +32,7 @@ function SmallitemCard() {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

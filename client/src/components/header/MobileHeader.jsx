@@ -20,7 +20,7 @@ const MobileHeader = () => {
           </Link>
         </li>
         <li className="flex">
-          <Link to='srarch' className="flex-col justify-center items-center text-[8px]">
+          <Link to='/srarch' className="flex-col justify-center items-center text-[8px]">
             <span className="flex items-center justify-center">
               {" "}
               <IoMdSearch size={19} />
@@ -29,7 +29,7 @@ const MobileHeader = () => {
           </Link>
         </li>
         <li className="flex ">
-          <Link to='movies' className="flex-col justify-center items-center text-[8px]">
+          <Link to='/movies' className="flex-col justify-center items-center text-[8px]">
             <span className="flex items-center justify-center">
               {" "}
               <MdMovieFilter size={19} />

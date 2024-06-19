@@ -4,6 +4,7 @@ import movies from "../../assets/videos/demovideo.mp4";
 import ItemListComp from "../../components/ItemListComp/ItemListComp";
 import VideoHeader from "./../../components/videoComp/VideoHeader";
 import ItemCard from "../../components/itemCard/ItemCard";
+import ListItemsCard from "../../components/listItemCard/ListItemsCard";
 
 const MoviesList = () => {
   return (
@@ -13,7 +14,7 @@ const MoviesList = () => {
         <div>
           <ItemListComp title={"More Like This"} />
         </div>
-        <ItemCard/>
+       <ListItemsCard/>
       </div>
     </div>
   );

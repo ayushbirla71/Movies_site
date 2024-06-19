@@ -24,7 +24,8 @@ const SearchPage = () => {
         </form>
       </div>
       <div className="">
-        <label>Trending in India</label>
+        <label
+        className="text-white text-lg font-bold pl-3">Trending in India</label>
         <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-6 gap-3 px-2">
           <SmallitemCard />
           <SmallitemCard />

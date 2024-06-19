@@ -3,7 +3,7 @@ import { IoMdCheckmark } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div className="py-4">
+    <div className="py-4 border-t-2 border-t-gray-600">
       <div className=" justify-between pr-3 md:flex text-xs md:text-sm">
         <div className="items-start">
           <label className="text-white font-bold">Company Name</label>

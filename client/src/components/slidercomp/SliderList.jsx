@@ -37,9 +37,9 @@ function SliderList() {
   };
 
   return (
-    <div className=" max-h-60 w-full overflow-hidden">
+    <div className="max-h-36 md:max-h-60 w-full overflow-hidden">
       <div className="flex justify-center ">
-        <label className=" flex relative left-5 max-h-60 items-center cursor-pointer hover:text-white">
+        <label className=" flex relative left-5 max-h-36 md:max-h-60 items-center cursor-pointer hover:text-white">
           <FaAngleLeft id="Left" onClick={() => SliderListHandel("Left")} />
         </label>
         <div>
@@ -49,7 +49,7 @@ function SliderList() {
             alt=""
           />
         </div>
-        <label className=" flex relative right-5 max-h-60 items-center cursor-pointer hover:text-white">
+        <label className=" flex relative right-5 max-h-36 md:max-h-60 items-center cursor-pointer hover:text-white">
           <FaAngleRight id="Right" onClick={() => SliderListHandel("Right")} />
         </label>
       </div>
